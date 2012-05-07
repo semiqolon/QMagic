@@ -1,0 +1,19 @@
+name: QMagic
+main: com.github.semiqolon.QMagic.QMagic
+version: 0.1
+
+commands:
+  c:
+    description: Cast a spell.
+    usage: /c <spell name> [target]
+  cast:
+    description: Cast a spell.
+    usage: /cast <spell name> [target]
+    
+permissions:
+  qmagic.createwater:
+    description: Allows casting the Create Water spell
+    default: op
+  qmagic.createlava:
+    description: Allows casting the Create Lava spell
+    default: op
